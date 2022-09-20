@@ -1,0 +1,177 @@
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1
+{   font-family: montserrat;
+    font-weight: 900;
+}
+h2
+{
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+h3
+{
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+    padding-bottom: 15px;
+}
+.container{
+    padding: 20px 15% ;
+   
+}
+.navbar
+{
+    padding-bottom: 20px;
+}
+
+
+/*TITLE SECTION*/
+
+#title                                                 /*section id selector */
+{
+    background-color: #ff4c68;
+    color: aliceblue;
+}
+
+
+.tinphn
+{
+    transform: rotate(25deg);
+    padding: 3%;
+    width: 60%;
+    position: relative;
+    
+}
+
+
+
+/*FEATURES SECTION*/
+
+#features
+{
+    background-color: #fff;
+    text-align: center;
+    
+    position: relative;
+    bottom: 120px;
+    
+    padding: 7% 15%;
+}
+.fa-solid
+{
+    color: #ef8172;
+}
+h3
+{
+    padding-top: 10px;
+}
+p
+{
+    padding: 0px 100px;
+}
+.icon-hover:hover
+{
+    color: red;
+}
+
+/* TESTIMONIALS SECTION*/
+
+#testimonials
+{   
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+.carousel-item
+{
+    padding:7% 15%;
+}
+.testimonial-img
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* PRESS SECTION */
+
+#press
+{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+#pricing
+{
+   padding: 7% 15%;
+   text-align: center;
+}
+
+.pricing-col
+{
+  padding: 3% 2%;
+}
+
+/* call-to-action */
+#cta
+{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+.ctai{
+    margin: 2px;
+}
+/* footer section */
+#footer
+{
+    text-align: center;
+    
+    padding-bottom: 15px;
+    
+}
+.foot-text
+{
+    padding: 7% 15%;
+}
+.foot-icon
+{
+    padding: 3px;
+}
+
+/* media query section */
+@media (max-width:980px)
+{
+    #title
+    {
+        text-align: center ;
+    }
+    .tinphn
+    {
+        position: static;
+        transform: rotate(0deg);
+        
+        
+
+    }
+    #features
+    {
+        position:static;
+    }
+    
+}
